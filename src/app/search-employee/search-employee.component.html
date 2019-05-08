@@ -1,0 +1,10 @@
+<div class="col-sm-3">
+  <h2 class="text-center">SEARCH EMPLOYEE</h2>
+  <form>
+    <div class="form-group">
+      <label for="name">Search using Id</label>
+      <input type="number" [(ngModel)]="user.id" placeholder="user id" name="id" class="form-control" id="id">
+    </div>
+    <button class="btn btn-sm btn-primary" (click)="searchEmployee()">Search</button>
+  </form>
+</div>
