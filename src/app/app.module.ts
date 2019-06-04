@@ -21,8 +21,7 @@ import { LogoutComponent } from './logout/logout.component';
     HeaderComponent,
     SearchEmployeeComponent,
     LoginComponent,
-    LogoutComponent,
-    
+    LogoutComponent
   ],
   imports: [
     BrowserModule,
